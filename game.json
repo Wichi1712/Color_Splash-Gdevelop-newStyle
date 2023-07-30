@@ -1,0 +1,544 @@
+{
+  "firstLayout": "Menu",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "portrait",
+    "packageName": "com.wichi.colorSplash",
+    "pixelsRounding": false,
+    "projectUuid": "cf2bddd6-305f-419c-978e-2d702c843ac1",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Color Splash nueva version de prueba 2023",
+    "description": "Esta es una version de prueba aun en desarrollo, hecho con Gdevelop.",
+    "author": "Wilfredo Chipana",
+    "windowWidth": 480,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 50,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "assets\\spr_splashBlue_0.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 5353434,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "assets\\spr_splashBlue_0.png",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 15593504,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "w0RBjpwkO5WizYBxTKh40y1cwsC3"
+    ],
+    "authorUsernames": [
+      "Wilfredo_Chipana"
+    ],
+    "categories": [
+      "shooter",
+      "mini-games"
+    ],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "bg_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_player_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_player_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_player_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_bloque2_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_bloque2_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bg_Score.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_Score.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_bullet_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_bullet_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorWhite_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorWhite_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashWhite_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashWhite_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorBlack_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorBlack_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorBlue_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorBlue_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorYellow_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorYellow_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorRed_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorRed_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashBlack_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashBlack_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashYellow_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashYellow_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashRed_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashRed_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashBlue_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashBlue_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoBlue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoBlue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoRed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoRed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoYellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoYellow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoBlack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoBlack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoWhite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoWhite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/ReggaeOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "9fb28ba0ab1167fbdb2d69423e13139535176e27c2c6f61d6959935dba4b5974_ReggaeOne-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/9fb28ba0ab1167fbdb2d69423e13139535176e27c2c6f61d6959935dba4b5974_ReggaeOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Empty UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Empty UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/688519c5bb4abaf5805518633f2ff810928e29164497fb5c13dabf97044be843_tiled_Tiled Empty UI Heart.png",
+          "name": "tiled_Tiled Empty UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Filler UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
+          "name": "tiled_Tiled Filler UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":1.26,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":0.26,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":200,\\\"frequencySweep\\\":-4300,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":7,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"tangent\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":510,\\\"vibratoFrequency\\\":374,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":3500,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":4300,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\New sound effect.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Buble.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Buble.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/splash.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\splash.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_gameOver_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_gameOver_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "SCORE",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "colorBubble",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "scoreBlue",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "scoreRed",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "scoreYellow",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "scoreBlack",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "scoreWhite",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "Level",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "LIFE_HEART",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "folded": true,
+      "name": "GameState",
+      "type": "string",
+      "value": "menu"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameover"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
