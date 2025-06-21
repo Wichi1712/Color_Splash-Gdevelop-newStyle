@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8324867627824334,
+    "zoomFactor": 0.4582709205073467,
     "windowMask": false
   },
   "objectsGroups": [
@@ -88,14 +88,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 730,
+      "depth": 1,
+      "height": 580,
       "layer": "",
       "name": "bg_0",
       "persistentUuid": "f3cab5b2-ad0c-4948-8443-a8095de98152",
-      "width": 467,
-      "x": -4,
-      "y": -5,
+      "width": 460,
+      "x": 5,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -109,7 +109,7 @@
       "name": "solido",
       "persistentUuid": "a5ef1078-9f06-43b0-a428-0c18b3f6888a",
       "width": 32,
-      "x": -5,
+      "x": -4,
       "y": -35,
       "zOrder": 4,
       "numberProperties": [],
@@ -124,15 +124,15 @@
       "name": "solido",
       "persistentUuid": "49eb3a82-66d1-4d79-99e9-231fbf93852d",
       "width": 32,
-      "x": 250,
-      "y": -52,
+      "x": 447,
+      "y": -54,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 270,
       "customSize": true,
       "depth": 0,
       "height": 723,
@@ -140,8 +140,8 @@
       "name": "bg_HUD",
       "persistentUuid": "0c2296fa-bb94-42cd-8402-1f1629790f85",
       "width": 200,
-      "x": 282,
-      "y": -5,
+      "x": 191,
+      "y": 320,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -170,8 +170,8 @@
       "name": "Score",
       "persistentUuid": "4fc4950a-876f-4f22-8aea-b48a74896eb1",
       "width": 0,
-      "x": 330,
-      "y": 294,
+      "x": 40,
+      "y": 20,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -179,14 +179,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 30,
       "layer": "",
       "name": "testBubble",
       "persistentUuid": "4217e193-eeb0-4be0-9cf1-a1550e44e02a",
-      "width": 0,
-      "x": 304,
-      "y": 209,
+      "width": 300,
+      "x": 85,
+      "y": -108,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -200,8 +201,8 @@
       "name": "iconoRed",
       "persistentUuid": "dc629514-3de8-4773-a8a1-973dc5c408a2",
       "width": 0,
-      "x": 428,
-      "y": 384,
+      "x": 40,
+      "y": 630,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -215,8 +216,8 @@
       "name": "iconoBlue",
       "persistentUuid": "b837d4ea-4b7d-4b9a-bed9-f8e720f982f3",
       "width": 0,
-      "x": 428,
-      "y": 352,
+      "x": 40,
+      "y": 600,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,8 +231,8 @@
       "name": "iconoYellow",
       "persistentUuid": "b1eed08c-6d8b-4f0f-92d1-c7cab059afc5",
       "width": 0,
-      "x": 427,
-      "y": 416,
+      "x": 40,
+      "y": 660,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,8 +246,8 @@
       "name": "iconoBlack",
       "persistentUuid": "d2e104b7-0e8e-4788-91fa-9efba0670f68",
       "width": 0,
-      "x": 427,
-      "y": 448,
+      "x": 200,
+      "y": 600,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -260,8 +261,8 @@
       "name": "iconoWhite",
       "persistentUuid": "5069f4e8-1642-419f-a80e-b95e5b8b234a",
       "width": 0,
-      "x": 427,
-      "y": 480,
+      "x": 200,
+      "y": 630,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -275,8 +276,8 @@
       "name": "textIconoBlue",
       "persistentUuid": "f136b8c8-98d9-4865-834f-e564ea4348dd",
       "width": 0,
-      "x": 288,
-      "y": 352,
+      "x": 68,
+      "y": 600,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,8 +291,8 @@
       "name": "textIconoRed",
       "persistentUuid": "4cd68d2a-f3d2-4180-b45b-8451775eb62e",
       "width": 0,
-      "x": 288,
-      "y": 384,
+      "x": 70,
+      "y": 630,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -305,8 +306,8 @@
       "name": "textIconoYellow",
       "persistentUuid": "af98b180-1d4b-4efa-b602-f053e6887c35",
       "width": 0,
-      "x": 288,
-      "y": 416,
+      "x": 70,
+      "y": 660,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -320,24 +321,9 @@
       "name": "textIconoBlack",
       "persistentUuid": "53a9c880-e22b-4a83-8e0c-759cef628423",
       "width": 0,
-      "x": 288,
-      "y": 448,
+      "x": 230,
+      "y": 600,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "textIconoWhite",
-      "persistentUuid": "d206bd3a-fd5e-4173-a01b-945350f7268d",
-      "width": 0,
-      "x": 288,
-      "y": 480,
-      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -350,8 +336,8 @@
       "name": "ScoreBlue",
       "persistentUuid": "8db59c19-2edc-4d71-9a72-abf1b71cd1db",
       "width": 0,
-      "x": 355,
-      "y": 356,
+      "x": 145,
+      "y": 610,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -365,8 +351,8 @@
       "name": "ScoreRed",
       "persistentUuid": "b20c0878-e2f9-4db8-910f-769212b3a0d9",
       "width": 0,
-      "x": 355,
-      "y": 389,
+      "x": 145,
+      "y": 640,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -380,8 +366,8 @@
       "name": "ScoreYellow",
       "persistentUuid": "211df9ab-3df3-4d4c-9208-87cae97083df",
       "width": 0,
-      "x": 356,
-      "y": 422,
+      "x": 145,
+      "y": 670,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -395,8 +381,8 @@
       "name": "ScoreBlack",
       "persistentUuid": "c8aaf154-a2bb-42df-bfb1-a21a9bdf0f95",
       "width": 0,
-      "x": 355,
-      "y": 457,
+      "x": 295,
+      "y": 610,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -410,8 +396,8 @@
       "name": "ScoreWhite",
       "persistentUuid": "7a4e55ca-1b2c-4b50-9f35-f6321873be72",
       "width": 0,
-      "x": 355,
-      "y": 487,
+      "x": 295,
+      "y": 640,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -425,23 +411,8 @@
       "name": "textIconoWhite",
       "persistentUuid": "12d5ade8-f32e-44b7-9f50-2a343e3ef900",
       "width": 0,
-      "x": 288,
-      "y": 480,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "textIconoWhite",
-      "persistentUuid": "3072b41a-e8bd-4926-8c2a-08c55f63189f",
-      "width": 0,
-      "x": 288,
-      "y": 480,
+      "x": 230,
+      "y": 630,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -455,8 +426,8 @@
       "name": "Level",
       "persistentUuid": "a7f7f24d-b477-4cca-b342-a259b23d3eb7",
       "width": 0,
-      "x": 324,
-      "y": 111,
+      "x": 334,
+      "y": 20,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -470,8 +441,8 @@
       "name": "Life",
       "persistentUuid": "a5b00b60-e904-4e4a-a2d0-2ad55bb7957d",
       "width": 0,
-      "x": 334,
-      "y": 575,
+      "x": 380,
+      "y": 625,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -479,15 +450,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 14,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
       "layer": "",
-      "name": "HeartBar",
-      "persistentUuid": "19d8f556-3d7a-4072-8184-4ddc6a09b072",
-      "width": 50,
-      "x": 339,
-      "y": 636,
-      "zOrder": 29,
+      "name": "Heart",
+      "persistentUuid": "ba82dfdc-5fdc-4471-a046-18138dc4ee15",
+      "width": 60,
+      "x": 360,
+      "y": 620,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -495,9 +467,9 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bg_0",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -514,7 +486,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "bg_0.png",
+                  "image": "assets\\sceneBlueSplash.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -536,9 +508,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "player",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -614,8 +586,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "solido",
-      "tags": "",
-      "texture": "spr_bloque2_0.png",
+      "texture": "assets\\spr_bloque2_0.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -623,9 +594,9 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bg_HUD",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -664,9 +635,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bullet",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -772,16 +743,18 @@
       "particleAngle2": 0,
       "particleAngleRandomness1": 0,
       "particleAngleRandomness2": 0,
-      "particleBlue1": 71,
-      "particleBlue2": 170,
+      "particleBlue1": 241,
+      "particleBlue2": 198,
+      "particleColor1": "250;241;241",
+      "particleColor2": "247;247;198",
       "particleGravityX": 0,
       "particleGravityY": 0,
-      "particleGreen1": 155,
-      "particleGreen2": 240,
+      "particleGreen1": 241,
+      "particleGreen2": 247,
       "particleLifeTimeMax": 2.5,
       "particleLifeTimeMin": 0.5,
-      "particleRed1": 137,
-      "particleRed2": 240,
+      "particleRed1": 250,
+      "particleRed2": 247,
       "particleSize1": 100,
       "particleSize2": 100,
       "particleSizeRandomness1": 0,
@@ -789,11 +762,10 @@
       "rendererParam1": 6,
       "rendererParam2": 1,
       "rendererType": "Point",
-      "tags": "",
-      "tank": -1,
+      "tank": 10,
       "textureParticleName": "",
       "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 10,
+      "zoneRadius": 5,
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -805,9 +777,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bubbleBlue",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -825,7 +797,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -844,40 +816,10 @@
                     "y": 0
                   },
                   "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "bubbleRed",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Destruir Fuera",
-          "type": "DestroyOutsideBehavior::DestroyOutside",
-          "extraBorder": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\spr_colorRed_0.png",
+                  "image": "assets\\bubble_Blue0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -899,9 +841,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "bubbleYellow",
-      "tags": "",
+      "name": "bubbleRed",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -919,7 +861,109 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\spr_colorRed_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\bubble_Red0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "bubbleYellow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Destruir Fuera",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -938,6 +982,23 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bubble_Yellow0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -946,9 +1007,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bubbleBlack",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -962,16 +1023,85 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\bubble_Black",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\spr_colorBlack_0.png",
+                  "image": "assets\\bubble_Black.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bubble_Black2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bubble_Black1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bubble_Black3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bubble_Black0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -993,9 +1123,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bubbleWhite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1013,12 +1143,29 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\spr_colorWhite_0.png",
+                  "image": "assets\\bubbleWhite.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bubble_White0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1040,9 +1187,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bubble",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1087,9 +1234,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "splashBlue",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1128,9 +1275,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "splashRed",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1169,9 +1316,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "splashYellow",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1210,9 +1357,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "splashBlack",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1251,9 +1398,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "splashWhite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1292,9 +1439,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "splash",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1338,20 +1485,40 @@
       "italic": false,
       "name": "Life",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Life",
+      "string": "0",
       "font": "",
-      "textAlignment": "",
-      "characterSize": 30,
+      "textAlignment": "center",
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "255;255;255"
       }
     },
     {
@@ -1360,7 +1527,6 @@
       "italic": false,
       "name": "Level",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1374,6 +1540,27 @@
         "b": 0,
         "g": 0,
         "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Level",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;0;0"
       }
     },
     {
@@ -1382,7 +1569,6 @@
       "italic": false,
       "name": "Score",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1396,6 +1582,27 @@
         "b": 0,
         "g": 0,
         "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score 0",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;0;0"
       }
     },
     {
@@ -1404,7 +1611,6 @@
       "italic": false,
       "name": "testBubble",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1413,17 +1619,38 @@
       "string": "Test bubble:",
       "font": "",
       "textAlignment": "",
-      "characterSize": 20,
+      "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 133,
+        "g": 197,
+        "r": 147
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Test bubble:",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "147;197;133"
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "iconoBlue",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1462,9 +1689,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "iconoRed",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1503,9 +1730,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "iconoYellow",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1544,9 +1771,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "iconoBlack",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1585,9 +1812,9 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "iconoWhite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1628,7 +1855,6 @@
     {
       "assetStoreId": "",
       "name": "textIconoBlue",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1650,7 +1876,6 @@
       "italic": false,
       "name": "ScoreBlue",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1664,12 +1889,32 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "= 0",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
       "name": "textIconoRed",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1691,7 +1936,6 @@
       "italic": false,
       "name": "ScoreRed",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1705,12 +1949,32 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "= 0",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
       "name": "textIconoYellow",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1732,7 +1996,6 @@
       "italic": false,
       "name": "ScoreYellow",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1746,12 +2009,32 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "= 0",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
       "name": "textIconoBlack",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1773,7 +2056,6 @@
       "italic": false,
       "name": "ScoreBlack",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1787,12 +2069,32 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "= 0",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
       "name": "textIconoWhite",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1814,7 +2116,6 @@
       "italic": false,
       "name": "ScoreWhite",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1828,49 +2129,33 @@
         "b": 255,
         "g": 255,
         "r": 255
-      }
-    },
-    {
-      "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
-      "name": "HeartBar",
-      "tags": "",
-      "type": "TiledUnitsBar::TiledUnitsBar",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "UnitWidth": 16,
-        "HideBackground": true,
-        "ShowBackground": false,
-        "MaxValue": 3
       },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 0,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "tiled_Tiled Empty UI Heart.png",
-          "tiled": true,
-          "topMargin": 0,
-          "width": 48
-        },
-        "Bar": {
-          "height": 16,
-          "texture": "tiled_Tiled Empty UI Heart.png",
-          "width": 48
-        },
-        "FillBar": {
-          "height": 16,
-          "texture": "tiled_Tiled Filler UI Heart.png",
-          "width": 16
-        }
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "= 0",
+        "font": "",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "255;255;255"
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "obj_gameOver",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1907,8 +2192,203 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Heart",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 4,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\spr_life_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "bg_0"
+      },
+      {
+        "objectName": "player"
+      },
+      {
+        "objectName": "solido"
+      },
+      {
+        "objectName": "bg_HUD"
+      },
+      {
+        "objectName": "bullet"
+      },
+      {
+        "objectName": "particulas"
+      },
+      {
+        "objectName": "bubbleBlue"
+      },
+      {
+        "objectName": "bubbleRed"
+      },
+      {
+        "objectName": "bubbleYellow"
+      },
+      {
+        "objectName": "bubbleBlack"
+      },
+      {
+        "objectName": "bubbleWhite"
+      },
+      {
+        "objectName": "bubble"
+      },
+      {
+        "objectName": "splashBlue"
+      },
+      {
+        "objectName": "splashRed"
+      },
+      {
+        "objectName": "splashYellow"
+      },
+      {
+        "objectName": "splashBlack"
+      },
+      {
+        "objectName": "splashWhite"
+      },
+      {
+        "objectName": "splash"
+      },
+      {
+        "objectName": "Life"
+      },
+      {
+        "objectName": "Level"
+      },
+      {
+        "objectName": "Score"
+      },
+      {
+        "objectName": "testBubble"
+      },
+      {
+        "objectName": "iconoBlue"
+      },
+      {
+        "objectName": "iconoRed"
+      },
+      {
+        "objectName": "iconoYellow"
+      },
+      {
+        "objectName": "iconoBlack"
+      },
+      {
+        "objectName": "iconoWhite"
+      },
+      {
+        "objectName": "textIconoBlue"
+      },
+      {
+        "objectName": "ScoreBlue"
+      },
+      {
+        "objectName": "textIconoRed"
+      },
+      {
+        "objectName": "ScoreRed"
+      },
+      {
+        "objectName": "textIconoYellow"
+      },
+      {
+        "objectName": "ScoreYellow"
+      },
+      {
+        "objectName": "textIconoBlack"
+      },
+      {
+        "objectName": "ScoreBlack"
+      },
+      {
+        "objectName": "textIconoWhite"
+      },
+      {
+        "objectName": "ScoreWhite"
+      },
+      {
+        "objectName": "Heart"
+      },
+      {
+        "objectName": "obj_gameOver"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1946,7 +2426,8 @@
             "value": "AdvancedWindow::Maximize"
           },
           "parameters": [
-            "yes"
+            "no",
+            ""
           ]
         },
         {
@@ -2014,7 +2495,7 @@
           "parameters": [
             "testBubble",
             "=",
-            "\"Test Bubble: \"+GlobalVariableString(colorBubble)"
+            "\"Test Bubble: \"+GlobalVariableString(colorBubble) + ToString(TimerElapsedTime(\"createBubble\"))"
           ]
         }
       ]
@@ -2115,7 +2596,7 @@
           "parameters": [
             "Life",
             "=",
-            "\"Life \" + GlobalVariableString(LIFE_HEART)"
+            "GlobalVariableString(LIFE_HEART)"
           ]
         },
         {
@@ -2382,6 +2863,36 @@
                 "=",
                 "player.ZOrder()"
               ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::ParticleBlue1"
+              },
+              "parameters": [
+                "particulas",
+                "=",
+                "RandomInRange(0,255)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::ParticleGreen1"
+              },
+              "parameters": [
+                "particulas",
+                "=",
+                "RandomInRange(0,255)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::ParticleRed1"
+              },
+              "parameters": [
+                "particulas",
+                "=",
+                "RandomInRange(0,255)"
+              ]
             }
           ]
         },
@@ -2481,7 +2992,7 @@
                   "parameters": [
                     "",
                     "bubbleWhite",
-                    "RandomInRange(30,SceneWindowWidth()-280)",
+                    "RandomInRange(30,SceneWindowWidth()-60)",
                     "RandomInRange(-60, 0)",
                     ""
                   ]
@@ -2510,7 +3021,7 @@
                   "parameters": [
                     "",
                     "bubbleBlack",
-                    "RandomInRange(30,SceneWindowWidth()-280)",
+                    "RandomInRange(30,SceneWindowWidth()-60)",
                     "RandomInRange(-60, 0)",
                     ""
                   ]
@@ -2539,7 +3050,7 @@
                   "parameters": [
                     "",
                     "bubbleYellow",
-                    "RandomInRange(30,SceneWindowWidth()-280)",
+                    "RandomInRange(30,SceneWindowWidth()-60)",
                     "RandomInRange(-60, 0)",
                     ""
                   ]
@@ -2568,7 +3079,7 @@
                   "parameters": [
                     "",
                     "bubbleRed",
-                    "RandomInRange(30,SceneWindowWidth()-280)",
+                    "RandomInRange(30,SceneWindowWidth()-60)",
                     "RandomInRange(-60, 0)",
                     ""
                   ]
@@ -2597,7 +3108,7 @@
                   "parameters": [
                     "",
                     "bubbleBlue",
-                    "RandomInRange(30,SceneWindowWidth()-280)",
+                    "RandomInRange(30,SceneWindowWidth()-60)",
                     "RandomInRange(-60, 0)",
                     ""
                   ]
@@ -2837,7 +3348,6 @@
           "comment": "Destruye burbuja al colisionar con la bala y crea un splash"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3473,15 +3983,6 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -3489,6 +3990,15 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
@@ -3512,6 +4022,18 @@
                 "",
                 "80",
                 "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "particulas",
+                "Bubbles.CenterX()",
+                "Bubbles.CenterY()",
+                ""
               ]
             }
           ],
@@ -3834,6 +4356,26 @@
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
             }
           ]
         },
@@ -3878,6 +4420,26 @@
                 "Level",
                 "=",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "150",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -3924,6 +4486,26 @@
                 "=",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "150",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
             }
           ]
         },
@@ -3968,6 +4550,26 @@
                 "Level",
                 "=",
                 "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "180",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -4014,6 +4616,26 @@
                 "=",
                 "5"
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "180",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
             }
           ]
         },
@@ -4058,6 +4680,26 @@
                 "Level",
                 "=",
                 "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -4104,6 +4746,17 @@
                 "=",
                 "7"
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "300",
+                ""
+              ]
             }
           ]
         },
@@ -4149,6 +4802,17 @@
                 "=",
                 "8"
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "300",
+                ""
+              ]
             }
           ]
         },
@@ -4178,7 +4842,7 @@
                   "parameters": [
                     "SCORE",
                     "<",
-                    "101"
+                    "100"
                   ]
                 }
               ]
@@ -4193,6 +4857,171 @@
                 "Level",
                 "=",
                 "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "300",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "120"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "",
+                "300",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Control de direccion y limites en el eje X segun level"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Level",
+                ">=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bubbles",
+                "RandomInRange(-50,50)",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Bubbles",
+                    ">=",
+                    "SceneWindowWidth() - 60"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bubbles",
+                    "-50",
+                    "",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Bubbles",
+                    "<=",
+                    "35"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bubbles",
+                    "50",
+                    "",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -4253,6 +5082,33 @@
       "conditions": [
         {
           "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "SCORE",
+            ">=",
+            "120"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "GameState",
+            "=",
+            "\"Win\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "VarGlobalTxt"
           },
           "parameters": [
@@ -4274,6 +5130,33 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "GameState",
+            "=",
+            "\"Win\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Win\"",
+            "no"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -4284,6 +5167,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -4307,12 +5191,40 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
       "name": "Physics2",
       "type": "Physics2::Physics2Behavior",
       "gravityX": 0,
       "gravityY": 9.8,
       "scaleX": 100,
       "scaleY": 100
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

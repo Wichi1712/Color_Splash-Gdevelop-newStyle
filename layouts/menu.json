@@ -18,27 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.618718433538229,
+    "zoomFactor": 0.444081293510061,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 87,
-      "layer": "",
-      "name": "Titulo",
-      "persistentUuid": "f75d2400-fc60-4d8d-9dee-71138136b449",
-      "width": 450,
-      "x": 18,
-      "y": 190,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -49,7 +34,7 @@
       "width": 0,
       "x": 133,
       "y": 362,
-      "zOrder": 2,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -63,8 +48,24 @@
       "persistentUuid": "7ee43789-f09b-4f9b-b965-bb237bb559e5",
       "width": 0,
       "x": 151,
-      "y": 641,
+      "y": 660,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 701,
+      "layer": "",
+      "name": "bg_game",
+      "persistentUuid": "c079bf57-e591-4735-9fd2-b2b6157e13c4",
+      "width": 478,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -74,7 +75,6 @@
     {
       "assetStoreId": "",
       "name": "Titulo",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [
@@ -109,20 +109,54 @@
       "italic": false,
       "name": "Message_Start",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
-      "string": "Pres any button",
+      "string": "Touch Screen",
       "font": "9fb28ba0ab1167fbdb2d69423e13139535176e27c2c6f61d6959935dba4b5974_ReggaeOne-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
-        "b": 28,
-        "g": 231,
-        "r": 248
+        "b": 5,
+        "g": 33,
+        "r": 36
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "100;148;26",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Touch Screen",
+        "font": "9fb28ba0ab1167fbdb2d69423e13139535176e27c2c6f61d6959935dba4b5974_ReggaeOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "36;33;5"
       }
     },
     {
@@ -131,7 +165,6 @@
       "italic": false,
       "name": "ByWilfredo",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -145,9 +178,107 @@
         "b": 28,
         "g": 231,
         "r": 248
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "By Wilfredo Chipana",
+        "font": "9fb28ba0ab1167fbdb2d69423e13139535176e27c2c6f61d6959935dba4b5974_ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "248;231;28"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_game",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\bg-colorSpash.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 14
+                      },
+                      {
+                        "x": 797,
+                        "y": 14
+                      },
+                      {
+                        "x": 797,
+                        "y": 792
+                      },
+                      {
+                        "x": 0,
+                        "y": 792
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Titulo"
+      },
+      {
+        "objectName": "Message_Start"
+      },
+      {
+        "objectName": "ByWilfredo"
+      },
+      {
+        "objectName": "bg_game"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -200,7 +331,7 @@
             "value": "AdvancedWindow::Maximize"
           },
           "parameters": [
-            "yes",
+            "no",
             "yes"
           ]
         },
@@ -221,6 +352,18 @@
             "GameState",
             "=",
             "\"menu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\intro_splash3.wav",
+            "yes",
+            "100",
+            "1"
           ]
         }
       ]
@@ -268,6 +411,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -289,5 +433,34 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
 }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6461114388485306,
+    "zoomFactor": 0.4955448524906222,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,13 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 800,
+      "depth": 0,
+      "height": 720,
       "layer": "",
       "name": "bg_gameOver",
       "persistentUuid": "0965a824-643d-4ffe-8915-9354fb684748",
-      "width": 794,
-      "x": 6,
-      "y": -4,
+      "width": 480,
+      "x": 0,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,8 +49,8 @@
       "name": "ReloadButton",
       "persistentUuid": "c5c878af-e19e-43c4-bb31-b1abebdf110c",
       "width": 0,
-      "x": 273,
-      "y": 319,
+      "x": 110,
+      "y": 350,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,7 +64,7 @@
       "name": "MenuButton",
       "persistentUuid": "165d4474-4bd5-4262-b3a4-91478247283b",
       "width": 0,
-      "x": 273,
+      "x": 110,
       "y": 479,
       "zOrder": 2,
       "numberProperties": [],
@@ -73,9 +74,9 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bg_gameOver",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -87,12 +88,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\spr_gameOver_0.png",
+                  "image": "assets\\bg_gameOver.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -116,7 +117,6 @@
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "ReloadButton",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [
@@ -171,6 +171,27 @@
             "b": 29,
             "g": 99,
             "r": 62
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Reload",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "62;99;29"
           }
         },
         "Pressed": {
@@ -188,7 +209,6 @@
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "MenuButton",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [
@@ -243,6 +263,27 @@
             "b": 29,
             "g": 99,
             "r": 62
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Menu",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "62;99;29"
           }
         },
         "Pressed": {
@@ -258,6 +299,20 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "bg_gameOver"
+      },
+      {
+        "objectName": "ReloadButton"
+      },
+      {
+        "objectName": "MenuButton"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -480,6 +535,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -501,5 +557,30 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
 }

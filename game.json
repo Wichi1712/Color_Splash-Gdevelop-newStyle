@@ -1,9 +1,9 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 228,
+    "major": 5,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -19,52 +19,51 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "useDeprecatedZeroAsDefaultZOrder": true,
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Color Splash nueva version de prueba 2023",
-    "description": "Esta es una version de prueba aun en desarrollo, hecho con Gdevelop.",
+    "description": "Esta es una version de prueba aún en desarrollo.\nEl objetivo del juego es destruir las burbujas que van cayendo, si pasan mas de 3 hasta la parte inferior de la pantalla entonces pierdes. Pero tienes la opcion de volver a intentarlo.\nDesarrollado por Wilfredo Chipana.",
     "author": "Wilfredo Chipana",
     "windowWidth": 480,
     "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
-    "minFPS": 50,
+    "minFPS": 30,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "",
-      "android-icon-192": "",
-      "android-icon-36": "",
-      "android-icon-48": "",
-      "android-icon-72": "",
-      "android-icon-96": "",
-      "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
-      "ios-icon-100": "",
-      "ios-icon-1024": "",
-      "ios-icon-114": "",
-      "ios-icon-120": "",
-      "ios-icon-144": "",
-      "ios-icon-152": "",
-      "ios-icon-167": "",
-      "ios-icon-180": "",
-      "ios-icon-20": "",
-      "ios-icon-29": "",
-      "ios-icon-40": "",
-      "ios-icon-50": "",
-      "ios-icon-57": "",
-      "ios-icon-58": "",
-      "ios-icon-60": "",
-      "ios-icon-72": "",
-      "ios-icon-76": "",
-      "ios-icon-80": "",
-      "ios-icon-87": "",
-      "liluo-thumbnail": "assets\\spr_splashBlue_0.png"
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png",
+      "liluo-thumbnail": "ios-icon-1024.png"
     },
     "loadingScreen": {
       "backgroundColor": 5353434,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "assets\\spr_splashBlue_0.png",
-      "gdevelopLogoStyle": "light",
+      "gdevelopLogoStyle": "dark",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
       "minDuration": 1.5,
@@ -90,7 +89,9 @@
       "shooter",
       "mini-games"
     ],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -102,7 +103,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "bg_0.png",
         "kind": "image",
         "metadata": "",
@@ -111,7 +111,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "spr_player_0.png",
         "kind": "image",
         "metadata": "",
@@ -120,7 +119,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "spr_player_1.png",
         "kind": "image",
         "metadata": "",
@@ -129,7 +127,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "spr_player_2.png",
         "kind": "image",
         "metadata": "",
@@ -138,7 +135,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "spr_bloque2_0.png",
         "kind": "image",
         "metadata": "",
@@ -147,7 +143,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/bg_Score.png",
         "kind": "image",
         "metadata": "",
@@ -156,7 +151,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_bullet_0.png",
         "kind": "image",
         "metadata": "",
@@ -165,7 +159,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_colorWhite_0.png",
         "kind": "image",
         "metadata": "",
@@ -174,7 +167,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_splashWhite_0.png",
         "kind": "image",
         "metadata": "",
@@ -183,7 +175,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_colorBlack_0.png",
         "kind": "image",
         "metadata": "",
@@ -192,7 +183,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_colorBlue_0.png",
         "kind": "image",
         "metadata": "",
@@ -201,7 +191,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_colorYellow_0.png",
         "kind": "image",
         "metadata": "",
@@ -210,7 +199,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_colorRed_0.png",
         "kind": "image",
         "metadata": "",
@@ -219,7 +207,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_splashBlack_0.png",
         "kind": "image",
         "metadata": "",
@@ -228,7 +215,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_splashYellow_0.png",
         "kind": "image",
         "metadata": "",
@@ -237,7 +223,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_splashRed_0.png",
         "kind": "image",
         "metadata": "",
@@ -246,7 +231,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_splashBlue_0.png",
         "kind": "image",
         "metadata": "",
@@ -255,7 +239,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_iconoBlue.png",
         "kind": "image",
         "metadata": "",
@@ -264,7 +247,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_iconoRed.png",
         "kind": "image",
         "metadata": "",
@@ -273,7 +255,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_iconoYellow.png",
         "kind": "image",
         "metadata": "",
@@ -282,7 +263,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_iconoBlack.png",
         "kind": "image",
         "metadata": "",
@@ -291,7 +271,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_iconoWhite.png",
         "kind": "image",
         "metadata": "",
@@ -311,7 +290,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Tiled Empty UI Heart.png",
         "kind": "image",
         "metadata": "",
@@ -324,7 +302,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Tiled Filler UI Heart.png",
         "kind": "image",
         "metadata": "",
@@ -337,7 +314,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Copper Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -350,7 +326,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Framed Pixel Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -403,7 +378,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/spr_gameOver_0.png",
         "kind": "image",
         "metadata": "",
@@ -412,7 +386,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -425,7 +398,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green Button_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -438,7 +410,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green Button_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -449,11 +420,432 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
           "name": "Green Button_Pressed.png"
         }
+      },
+      {
+        "file": "assets/spr_life_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_life_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "../../../Imagenes/bubbleWhite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Imagenes\\bubbleWhite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bg-colorSpash.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg-colorSpash.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bubbleWhite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bubbleWhite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubbleWhite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubbleWhite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bg-colorSpash.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg-colorSpash.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bg_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/spr_bloque2_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_bloque2_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Black.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/bubble_Black.png\",\"extension\":\".png\"}",
+        "name": "assets\\bubble_Black.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Black1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/bubble_Black1.png\",\"extension\":\".png\"}",
+        "name": "assets\\bubble_Black1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Black2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/bubble_Black2.png\",\"extension\":\".png\"}",
+        "name": "assets\\bubble_Black2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Black3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/bubble_Black3.png\",\"extension\":\".png\"}",
+        "name": "assets\\bubble_Black3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bubble_Black4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_Black4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Black5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_Black5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bubble_Black6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_Black6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Black0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_Black0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_White0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_White0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Blue0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_Blue0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Red0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_Red0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bubble_Yellow0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bubble_Yellow0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "sceneBlueSplash.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sceneBlueSplash.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sceneBlueSplash.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sceneBlueSplash.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bg_gameOver.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_gameOver.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/intro_splash3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\intro_splash3.wav",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bg_congratulations.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_congratulations.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/desktop-icon-512.png\"}",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-192.png\"}",
+        "name": "android-icon-192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-144.png\"}",
+        "name": "android-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-96.png\"}",
+        "name": "android-icon-96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-72.png\"}",
+        "name": "android-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-48.png\"}",
+        "name": "android-icon-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-36.png\"}",
+        "name": "android-icon-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-windowSplashScreenAnimatedIcon.png\"}",
+        "name": "android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-1024.png\"}",
+        "name": "ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-180.png\"}",
+        "name": "ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-167.png\"}",
+        "name": "ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-152.png\"}",
+        "name": "ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-144.png\"}",
+        "name": "ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-120.png\"}",
+        "name": "ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-114.png\"}",
+        "name": "ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-100.png\"}",
+        "name": "ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-87.png\"}",
+        "name": "ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-80.png\"}",
+        "name": "ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-76.png\"}",
+        "name": "ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-72.png\"}",
+        "name": "ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-60.png\"}",
+        "name": "ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-58.png\"}",
+        "name": "ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-57.png\"}",
+        "name": "ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-50.png\"}",
+        "name": "ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-40.png\"}",
+        "name": "ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-29.png\"}",
+        "name": "ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-20.png\"}",
+        "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -522,23 +914,26 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/gameover"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/win"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }

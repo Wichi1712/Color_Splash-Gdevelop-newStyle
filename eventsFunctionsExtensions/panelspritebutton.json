@@ -3,6 +3,7 @@
   "category": "User interface",
   "extensionNamespace": "",
   "fullName": "Panel sprite button",
+  "gdevelopVersion": "",
   "helpPath": "/objects/button",
   "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI5LDIzSDNjLTEuMSwwLTItMC45LTItMlYxMWMwLTEuMSwwLjktMiwyLTJoMjZjMS4xLDAsMiwwLjksMiwydjEwQzMxLDIyLjEsMzAuMSwyMywyOSwyM3oiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMywxOUwxMywxOWMtMS4xLDAtMi0wLjktMi0ydi0yYzAtMS4xLDAuOS0yLDItMmgwYzEuMSwwLDIsMC45LDIsMnYyQzE1LDE4LjEsMTQuMSwxOSwxMywxOXoiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIxOCIgeTE9IjEzIiB4Mj0iMTgiIHkyPSIxOSIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjIxIiB5MT0iMTMiIHgyPSIxOCIgeTI9IjE3Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMjEiIHkxPSIxOSIgeDI9IjE5IiB5Mj0iMTYiLz4NCjwvc3ZnPg0K",
   "name": "PanelSpriteButton",
@@ -26,6 +27,8 @@
     "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
   ],
   "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
   "eventsFunctions": [],
   "eventsBasedBehaviors": [
     {
@@ -1207,9 +1210,16 @@
   ],
   "eventsBasedObjects": [
     {
+      "areaMaxX": 64,
+      "areaMaxY": 64,
+      "areaMaxZ": 64,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
       "defaultName": "Button",
       "description": "A button that can be customized.",
       "fullName": "Button (panel sprite)",
+      "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteButton",
       "eventsFunctions": [
         {
@@ -2506,7 +2516,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "PressedLabelOffsetY"
         },
         {
@@ -2518,7 +2527,6 @@
           "extraInformation": [
             "Label"
           ],
-          "hidden": false,
           "name": "LeftPadding"
         },
         {
@@ -2530,7 +2538,6 @@
           "extraInformation": [
             "Label"
           ],
-          "hidden": false,
           "name": "RightPadding"
         },
         {
@@ -2542,7 +2549,6 @@
           "extraInformation": [
             "Label"
           ],
-          "hidden": false,
           "name": "TopPadding"
         },
         {
@@ -2554,7 +2560,6 @@
           "extraInformation": [
             "Label"
           ],
-          "hidden": false,
           "name": "BottomPadding"
         },
         {
@@ -2564,7 +2569,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "HoveredFadeOutDuration"
         }
       ],
@@ -2575,7 +2579,6 @@
           "italic": false,
           "name": "Label",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2589,6 +2592,27 @@
             "b": 0,
             "g": 0,
             "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
           }
         },
         {
@@ -2598,7 +2622,6 @@
           "leftMargin": 0,
           "name": "Idle",
           "rightMargin": 0,
-          "tags": "",
           "texture": "",
           "tiled": false,
           "topMargin": 0,
@@ -2628,7 +2651,6 @@
           "leftMargin": 0,
           "name": "Hovered",
           "rightMargin": 0,
-          "tags": "",
           "texture": "",
           "tiled": false,
           "topMargin": 0,
@@ -2650,7 +2672,6 @@
           "leftMargin": 0,
           "name": "Pressed",
           "rightMargin": 0,
-          "tags": "",
           "texture": "",
           "tiled": false,
           "topMargin": 0,
@@ -2660,7 +2681,56 @@
           "effects": [],
           "behaviors": []
         }
-      ]
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Label"
+          },
+          {
+            "objectName": "Idle"
+          },
+          {
+            "objectName": "Hovered"
+          },
+          {
+            "objectName": "Pressed"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": []
     }
   ]
 }
